@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.algaworks.osworks.OsworksApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.854 s <<< FAILURE! - in com.algaworks.osworks.OsworksApiApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Validate failed: 
+Detected failed migration to version 001 (cria-tabela-cliente)
+
+Caused by: org.flywaydb.core.api.FlywayException: 
+Validate failed: 
+Detected failed migration to version 001 (cria-tabela-cliente)
+
+
